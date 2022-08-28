@@ -1,0 +1,28 @@
+{
+    "name": "DictEverywhere",
+    "description": "Build an Extension!",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+      },
+      "permissions": ["storage","activeTab","scripting"],
+      "host_permissions": [
+        "*://*/*"
+      ],
+      "optional_host_permissions": [
+        "*://*/*"
+      ],
+      "action": {
+        "default_popup": "popup.html"
+      },
+      "content_scripts": [
+        {
+          "matches": ["https://*/*"],
+          "js": ["content-script.js"]
+
+        }
+      ]
+  }
+
+
