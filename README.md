@@ -1,4 +1,4 @@
-<h1> Introduction </h1>
+<h1> Overview </h1>
 A chrome extension which enables the user to search meanings or definition of any word on the current web page.
 
 <h1> How does it work? 🙄 </h1>
